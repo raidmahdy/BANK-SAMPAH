@@ -2,6 +2,9 @@
 # Raid Mahdy
 #IK1E
 #Politeknik Negeri Semarang
+
+#username=admin
+#password=admin
 import getpass
 
 i=n=0

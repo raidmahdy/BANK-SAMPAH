@@ -100,25 +100,20 @@ while True :
 
             
         elif smph=="3":
-
             jenis.append("Besi & Logam")
             total1.append(total)
             jlh1.append(jlh)
             jlh=int(input("Berapa berat sampah Besi & Logam/kg="))
-
             total=jlh*20000
-
             print (jlh," kg sampah Kertas= Rp", total)
             print("========================================")
 
         elif smph=="4":
             jenis.append("elektronik")
-
             total1.append(total)
             jlh1.append(jlh)
             jlh=int(input("Berapa berat sampah elektronik/kg="))
             total=jlh*30000
-
             print (jlh," kg sampah elektronik= Rp", total)
             print("========================================")
 
@@ -127,7 +122,6 @@ while True :
             jlh1.append(jlh)
             total1.append(total)
             jlh=int(input("Berapa buah sampah botol kaca/btl="))
-
             total=jlh5*1000
             print (jlh5," kg sampah botol kaca= Rp", total)
             print("========================================")
@@ -136,12 +130,9 @@ while True :
             jenis.append("aluminium dan kaleng")
             jlh1.append(jlh)
             total.append(total)
-
             jlh=int(input("Berapa berat sampah aluminium dan kaleng/kg="))
             jenis=("aluminium dan kaleng")
-
             total=jlh*10000
-
             print (jlh," kg sampah aluminium dan kaleng = Rp", total)
             print("========================================")
 
